@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<body>
+
+    <h2>Survey Form</h2>
+    <form action="./submit.html">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob"><br><br>
+
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label><br><br>
+
+        <label>Which of these services do you use?</label><br>
+        <input type="checkbox" id="facebook" name="social" value="Facebook">
+        <label for="facebook">Facebook</label>
+        <input type="checkbox" id="twitter" name="social" value="Twitter">
+        <label for="twitter">Twitter</label>
+        <input type="checkbox" id="instagram" name="social" value="Instagram">
+        <label for="instagram">Instagram</label><br><br>
+
+        <label for="feedback">Any feedback for us?</label><br>
+        <textarea id="feedback" name="feedback" rows="4" cols="40"></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
